@@ -23,8 +23,8 @@ class Name_Request : AppCompatActivity() {
                 Toast.makeText(this,  "You need to enter your last name", Toast.LENGTH_LONG).show()
             }
             else{
-//                val int = Intent(this,Email_Request::class.java)
-//                startActivity(int)
+               val int = Intent(this,Terms_and_conditions::class.java)
+               startActivity(int)
             }
         }
     }
