@@ -13,36 +13,59 @@
         android:theme="@style/Theme.TUber"
         tools:targetApi="31">
         <activity
+            android:name=".Add_carpooling"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".homee"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Terms_and_conditions"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".Name_Request"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".Email_Request"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".Number_Request"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

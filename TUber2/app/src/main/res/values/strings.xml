@@ -20,4 +20,12 @@
     <string name="terms">As a condition of use , you promise not to use the services for any purpose that is unlawful or prohibited by these terms, or any other purpose not reasonably intended by TUber. By way of example, and not as a limitaion, you agree not to use the services: \n 1. To create or transmit unwanted \'spam\' to any user of TUber.\n 2. To create multiple accounts for fun. \n \n If you accept these terms :\n 1. TUber will not be responsible for your safety while you ride with another TUber user or while you are being with another TUber user in the same car.\n 2. TUber will not be responsible for your insurance when you use the application to get a carpooling.\n 3. TUber will not be responsible for any problem or misunderstanding between users.\n \n Thank you for reading and accepting these terms to finish your registration in TUber</string>
     <string name="checkboc_terms">Accept terms and conditions</string>
     <string name="register">Register</string>
+    <string name="add_a_carpooling">Add a carpooling</string>
+    <string name="home">Home</string>
+    <string name="title_activity_home2">home2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
