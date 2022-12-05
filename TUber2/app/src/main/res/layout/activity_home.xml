@@ -40,7 +40,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="388dp"
-        android:layout_height="532dp"
+        android:layout_height="508dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="22dp"
@@ -70,13 +70,13 @@
         android:id="@+id/searchView"
         android:layout_width="0dp"
         android:layout_height="54dp"
-        android:layout_marginStart="20dp"
-
+        android:layout_marginStart="16dp"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/layout_bg"
-        android:outlineAmbientShadowColor="@color/purple_500"
         android:queryHint="search for a carpooling"
+        android:backgroundTint="#DDDADA"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
