@@ -15,5 +15,9 @@ class homee : AppCompatActivity() {
             val i = Intent(this,Add_carpooling::class.java)
             startActivity(i)
         }
+        binding.imageButton2.setOnClickListener {
+            val i = Intent(this,profile::class.java)
+            startActivity(i)
+        }
     }
 }

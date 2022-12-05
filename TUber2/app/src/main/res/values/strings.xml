@@ -44,4 +44,17 @@
     <string name="time_of_departing">Time of departing:</string>
     <string name="number_of_places2">Number of places:</string>
     <string name="carpooling_announcement">Carpooling \n announcement</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="your_password">Your password</string>
+    <string name="your_phone_number">Your phone number</string>
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="textview">TextView</string>
+    <string name="your_last_name">Your last name :</string>
+    <string name="your_first_name">Your first name :</string>
+    <string name="your_email2">Your email :</string>
+    <string name="your_phone_number2">Your phone number :</string>
+    <string name="modify_your_account">Modify your account</string>
 </resources>

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="60dp"
-        android:text="Phone number"
+        android:text="@string/phone_number"
 
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -27,7 +27,7 @@
         android:layout_marginStart="49dp"
         android:layout_marginTop="15dp"
         android:ems="10"
-        android:hint="Your phone number"
+        android:hint="@string/your_phone_number"
 
         android:inputType="phone"
         android:minHeight="48dp"
@@ -45,7 +45,7 @@
         android:textSize="30sp"
         android:textColor="@color/white"
 
-        android:text="Password"
+        android:text="@string/password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone2" />
 
@@ -56,7 +56,7 @@
         android:layout_marginStart="54dp"
         android:layout_marginTop="15dp"
         android:ems="10"
-        android:hint="Your password"
+        android:hint="@string/your_password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="@color/white"
@@ -86,7 +86,7 @@
         android:layout_marginBottom="208dp"
 
         android:backgroundTint="@color/purple_700"
-        android:text="Create an account"
+        android:text="@string/create_an_account"
         android:textAllCaps="false"
         android:textSize="15sp"
         app:flow_horizontalAlign="center"
@@ -103,7 +103,7 @@
         android:layout_marginBottom="320dp"
 
         android:backgroundTint="@color/purple_700"
-        android:text="Login"
+        android:text="@string/login"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="20sp"
