@@ -15,6 +15,7 @@ class Name_Request : AppCompatActivity() {
         setContentView(binding.root)
         binding.button.setOnClickListener {
             binding.button.setBackgroundColor(Color.LTGRAY)
+
             if (binding.editTextFN.text.isEmpty())
             {
                 Toast.makeText(this,  "You need to enter your first name", Toast.LENGTH_LONG).show()

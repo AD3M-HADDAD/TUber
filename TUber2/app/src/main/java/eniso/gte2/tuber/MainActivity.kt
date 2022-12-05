@@ -17,12 +17,13 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.button.setOnClickListener {
-            val i = Intent(this,Number_Request::class.java)
+            val i = Intent(this,login::class.java)
             startActivity(i)
         }
+         }
+
     }
 
 
 
 
-}
