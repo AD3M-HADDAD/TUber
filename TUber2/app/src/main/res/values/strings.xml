@@ -28,4 +28,20 @@
     <string name="title_notifications">Notifications</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="position"> \t Position</string>
+    <string name="number_of_places">\t  Number of places</string>
+    <string name="car_model"> \t Car model</string>
+    <string name="car_registration_number">Car registration number:</string>
+    <string name="car_registration_number2"> \t Car registration number</string>
+    <string name="time"> \t Time</string>
+    <string name="destination"> \t destination</string>
+    <string name="facebook_account">Facebook account:</string>
+    <string name="link_to_your_facebook_account">\t  Link to your Facebook </string>
+    <string name="confirm">Confirm</string>
+    <string name="departing_position">Departing position:</string>
+    <string name="car_model2">Car model:</string>
+    <string name="destination2">Destination:</string>
+    <string name="time_of_departing">Time of departing:</string>
+    <string name="number_of_places2">Number of places:</string>
+    <string name="carpooling_announcement">Carpooling \n announcement</string>
 </resources>
