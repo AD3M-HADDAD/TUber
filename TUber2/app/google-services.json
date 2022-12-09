@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730845353149",
+    "project_id": "tuber-59728",
+    "storage_bucket": "tuber-59728.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730845353149:android:aa5056dcf531dfae95d3d4",
+        "android_client_info": {
+          "package_name": "eniso.gte2.tuber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730845353149-stoghpstdoeld960bbqsgb9e5pp9dsrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3pL4xPpFaW8crA3q7OsqEuh7gsgtuJ8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730845353149-stoghpstdoeld960bbqsgb9e5pp9dsrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
