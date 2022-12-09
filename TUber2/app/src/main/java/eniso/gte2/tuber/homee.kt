@@ -16,7 +16,7 @@ class homee : AppCompatActivity() {
             startActivity(i)
         }
         binding.imageButton2.setOnClickListener {
-            val i = Intent(this,profile::class.java)
+            val i = Intent(this,Profile2::class.java)
             startActivity(i)
         }
     }
