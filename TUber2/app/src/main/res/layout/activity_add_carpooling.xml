@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/departing_position"
+                android:text="Departure:"
                 android:textColor="#A1887F"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName"
-                android:layout_width="wrap_content"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
@@ -48,6 +48,7 @@
                 android:hint="@string/position"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
+                android:paddingLeft="10sp"
                 android:shadowColor="@color/black"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
@@ -68,16 +69,18 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
-                android:layout_width="wrap_content"
+                android:layout_width="245dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
+
                 android:autofillHints=""
                 android:background="@drawable/layout_bg"
                 android:ems="10"
                 android:hint="@string/destination"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
+                android:paddingLeft="10sp"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
 
@@ -92,7 +95,7 @@
                 android:layout_marginStart="50dp"
 
                 android:layout_marginTop="25dp"
-                android:text="@string/time_of_departing"
+                android:text="Time of departure:"
                 android:textColor="#A1887F"
                 android:textSize="20sp"
 
@@ -101,17 +104,19 @@
 
             <EditText
                 android:id="@+id/editTextTime"
-                android:layout_width="wrap_content"
+                android:layout_width="249dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
                 android:autofillHints=""
+
                 android:background="@drawable/layout_bg"
                 android:ems="10"
                 android:hint="@string/time"
                 android:inputType="time"
-
                 android:minHeight="48dp"
+
+                android:paddingLeft="10sp"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
                 app:layout_constraintStart_toStartOf="parent"
@@ -132,17 +137,20 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName6"
-                android:layout_width="wrap_content"
+                android:layout_width="249dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
+
                 android:autofillHints=""
                 android:background="@drawable/layout_bg"
                 android:ems="10"
-                android:hint="@string/number_of_places"
 
+                android:hint="@string/number_of_places"
                 android:inputType="textPersonName"
+
                 android:minHeight="48dp"
+                android:paddingLeft="10sp"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
                 app:layout_constraintStart_toStartOf="parent"
@@ -162,7 +170,7 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName3"
-                android:layout_width="wrap_content"
+                android:layout_width="245dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
 
@@ -173,6 +181,8 @@
                 android:hint="@string/car_model"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
+
+                android:paddingLeft="10sp"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
                 app:layout_constraintStart_toStartOf="parent"
@@ -193,17 +203,19 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName4"
-                android:layout_width="wrap_content"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
                 android:autofillHints=""
+
                 android:background="@drawable/layout_bg"
                 android:ems="10"
-
                 android:hint="@string/car_registration_number2"
+
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
+                android:paddingLeft="10sp"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
                 app:layout_constraintStart_toStartOf="parent"
@@ -224,7 +236,7 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName5"
-                android:layout_width="wrap_content"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
@@ -234,8 +246,10 @@
                 android:ems="10"
                 android:hint="@string/link_to_your_facebook_account"
                 android:inputType="textPersonName"
+
                 android:minHeight="48dp"
                 android:outlineAmbientShadowColor="@color/grey"
+                android:paddingLeft="10sp"
                 android:textColor="@color/grey"
                 android:textColorHint="#757575"
                 app:layout_constraintStart_toStartOf="parent"
