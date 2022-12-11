@@ -26,7 +26,7 @@ class Email_Request : AppCompatActivity() {
         val binding = ActivityEmailRequestBinding.inflate(layoutInflater)
         setContentView(binding.root)
         editText = findViewById(R.id.editTextEmail)
-        email = editText.text.toString().trim()
+        val email = editText.text.toString().trim()
         binding.button.setOnClickListener {
 
             binding.button.setBackgroundColor(Color.LTGRAY)

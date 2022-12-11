@@ -13,6 +13,8 @@ class Name_Request : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityNameRequestBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        val name =binding.editTextFN.text.toString()
+        val Lname=binding.editTextLN.text.toString()
         binding.button.setOnClickListener {
             binding.button.setBackgroundColor(Color.LTGRAY)
 

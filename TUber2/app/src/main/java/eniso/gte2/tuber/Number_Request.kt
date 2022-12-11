@@ -5,6 +5,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
 import eniso.gte2.tuber.databinding.ActivityMainBinding
 import eniso.gte2.tuber.databinding.ActivityNumberRequestBinding
 
@@ -13,6 +14,8 @@ class Number_Request : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityNumberRequestBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        var firebaseAuth = FirebaseAuth.getInstance()
+        val number = binding.editTextPhone.text.toString()
         binding.button4.setOnClickListener {
             binding.button4.setBackgroundColor(Color.LTGRAY)
             binding.button3.setBackgroundColor(Color.TRANSPARENT)
