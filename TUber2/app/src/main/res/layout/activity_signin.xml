@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bk_united"
-    tools:context=".Signin">
+    tools:context=".SignInActivity">
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -28,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type your Email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -52,7 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type Your Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -60,7 +62,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:background="@color/purple_700"
+        android:background="@color/background"
         android:text="Sign In"
         android:textColor="@color/white"
         android:textStyle="bold"

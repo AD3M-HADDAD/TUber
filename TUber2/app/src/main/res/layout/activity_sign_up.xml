@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bk_united"
-    tools:context=".SignUp">
+    tools:context=".SignUpActivity">
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -28,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type your Email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -52,7 +53,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type Your Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -76,7 +78,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Retype Your Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -86,18 +89,19 @@
         android:layout_marginHorizontal="16dp"
         android:background="@color/background"
         android:text="Sign Up"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordLayout"
+        tools:ignore="TextContrastCheck" />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Already Registered , Sign In !"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
