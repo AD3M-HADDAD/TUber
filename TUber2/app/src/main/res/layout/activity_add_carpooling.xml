@@ -37,7 +37,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/etposition"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -68,7 +68,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/etdestination"
                 android:layout_width="245dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -103,7 +103,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
             <EditText
-                android:id="@+id/editTextTime"
+                android:id="@+id/ettime"
                 android:layout_width="249dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -136,7 +136,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName6"
+                android:id="@+id/etnumplaces"
                 android:layout_width="249dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -162,14 +162,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/car_model2"
+                android:text="Phone number"
                 android:textColor="#A1887F"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/etphone"
                 android:layout_width="245dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -178,7 +178,7 @@
                 android:autofillHints=""
                 android:background="@drawable/layout_bg"
                 android:ems="10"
-                android:hint="@string/car_model"
+                android:hint="Phone number"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
 
@@ -202,7 +202,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/etcarreg"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -235,7 +235,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName5"
+                android:id="@+id/etfcb"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="60dp"
@@ -263,9 +263,9 @@
         android:id="@+id/button7"
         android:layout_width="256dp"
         android:layout_height="54dp"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/layout_bg"
         android:backgroundTint="@color/purple_500"
