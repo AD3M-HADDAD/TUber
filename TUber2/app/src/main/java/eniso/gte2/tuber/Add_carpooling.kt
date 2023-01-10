@@ -72,10 +72,19 @@ class Add_carpooling : AppCompatActivity() {
 
         val carpoolingId = dbref.push().key!!
 
-        val carpooling = carpoolingModel(carpoolingId,positon,destination,time,places,phone_num,registration,fcb)
+        val carpooling = carpoolingModel(carpoolingId,positon,destination,time,places,phone_num,registration)
 
         dbref.child(carpoolingId).setValue(carpooling)
             .addOnCompleteListener {
+                Toast.makeText(this,"Your carpooling announce is added succefully",Toast.LENGTH_LONG).show()
+                etposition.text.clear()
+                etdestination.text.clear()
+                ettime.text.clear()
+                etphone.text.clear()
+                etcarreg.text.clear()
+                etfcb.text.clear()
+                etnumplaces.text.clear()
+
 
             }
             .addOnFailureListener {

@@ -10,10 +10,11 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="396dp"
-        android:layout_height="559dp"
+        android:layout_width="398dp"
+        android:layout_height="645dp"
         android:layout_marginTop="84dp"
         android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -147,7 +148,7 @@
                 android:ems="10"
 
                 android:hint="@string/number_of_places"
-                android:inputType="textPersonName"
+                android:inputType="number|textPersonName|text"
 
                 android:minHeight="48dp"
                 android:paddingLeft="10sp"
@@ -179,7 +180,7 @@
                 android:background="@drawable/layout_bg"
                 android:ems="10"
                 android:hint="Phone number"
-                android:inputType="textPersonName"
+                android:inputType="phone"
                 android:minHeight="48dp"
 
                 android:paddingLeft="10sp"
@@ -255,25 +256,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="256dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/layout_bg"
+                android:backgroundTint="@color/purple_500"
+                android:text="@string/confirm"
+                app:layout_constraintStart_toStartOf="parent" />
+
         </LinearLayout>
 
     </ScrollView>
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="256dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/layout_bg"
-        android:backgroundTint="@color/purple_500"
-        android:text="@string/confirm"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
     <TextView
         android:id="@+id/textView13"

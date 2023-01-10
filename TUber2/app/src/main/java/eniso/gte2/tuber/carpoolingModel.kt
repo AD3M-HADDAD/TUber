@@ -8,7 +8,7 @@ data class carpoolingModel(
     var places: String? = null,
     var phone: String? = null,
     var registration: String? = null,
-    var fcb: String? = null
+//    var fcb: String? = null
 
 
 

@@ -57,4 +57,5 @@
     <string name="your_email2">Your email :</string>
     <string name="your_phone_number2">Your phone number :</string>
     <string name="modify_your_account">Modify your account</string>
+    <string name="fléche"><![CDATA[=>]]></string>
 </resources>

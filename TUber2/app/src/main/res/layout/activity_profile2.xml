@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="76dp"
-        android:text="TextView"
+        android:text="Adam"
         android:textColor="#9C9595"
         app:layout_constraintStart_toEndOf="@+id/textView16"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -114,7 +114,7 @@
         android:layout_marginStart="12dp"
 
         android:layout_marginTop="40dp"
-        android:text="@string/textview"
+        android:text="Haddad"
         android:textColor="#9C9595"
         app:layout_constraintStart_toEndOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -139,7 +139,7 @@
 
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
-        android:text="TextView"
+        android:text="adam@gmail.com"
         android:textColor="#9C9595"
         app:layout_constraintStart_toEndOf="@+id/textView20"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
@@ -164,7 +164,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="40dp"
 
-        android:text="TextView"
+        android:text="29007829"
         android:textColor="#9C9595"
         app:layout_constraintStart_toEndOf="@+id/textView22"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
